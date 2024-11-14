@@ -61,3 +61,15 @@ cd backend && go mod tidy && go run main.go types.go server.go userHandler.go lo
 ```bash
 cd frontend && npm install && npm start
 ```
+
+# Deployment
+
+create two `.env` files:
+
+frontend/.env:
+    REACT_APP_GEMINI_KEY
+
+backend/.env: 
+    MONGO_URI           mongodb+srv://MongoAtlas Cluster URL
+    MONGO_URI_LOCAL     mongodb://localhost:27017
+
