@@ -66,10 +66,13 @@ cd frontend && npm install && npm start
 
 create two `.env` files:
 
+```
 frontend/.env:
     REACT_APP_GEMINI_KEY
 
 backend/.env: 
     MONGO_URI           mongodb+srv://MongoAtlas Cluster URL
     MONGO_URI_LOCAL     mongodb://localhost:27017
+```
 
+[Original URL](https://nagrik-aur-samvidhan-five.vercel.app/) (deprecated)
